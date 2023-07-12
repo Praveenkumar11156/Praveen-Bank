@@ -1,0 +1,292 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.img{
+  height: 300px;
+  width: 500px;
+  margin-left: 450px;
+  margin-bottom:10px;
+
+}
+.img1{
+  height: 600px;
+  width: 1350px;
+  background-image:url("mhb\ cutout1.png");
+  text-align: center;
+
+
+}
+body{
+  /* background-image: url("./images.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  align-items: center;
+  flex-wrap: wrap; */
+}
+.home{
+  background-color: #e6e231;
+   text-align: center;
+  border-style: groove;
+  border-radius: 20px;
+  font-size:15px;
+  /* width: 30%; */
+  /* font-style:oblique; */
+  font-weight: bold;
+  /* margin-bottom: 100px; */
+  
+
+
+}
+.log{
+  /* color: #25d7e4; */
+  text-align: center;
+  font-size:larger;
+  font-weight: bold;
+  padding: 180px;
+  margin-bottom: -150px;
+}
+.sign{
+  position: relative;
+  top:-405px;
+  margin-left: 29cm;
+  /* margin-bottom: 20cm; */
+}
+.bg{
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  background-color: #25d7e4;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* Navbar Css */
+.navbar{
+  background:linear-gradient(to right, #222224 0%, #070f57 100%);
+  height: 1.5cm;
+  
+}
+.navbar .nav-link{
+ color: rgb(75, 169, 231);
+ font-size: 18px;
+ font-weight: bold;
+}
+
+.navbar .nav-link:hover{
+color:rgb(223, 219, 11);
+text-decoration: dashed;
+}
+
+
+/* CreateAccount Css */
+.form-label{
+  font-weight: bold;
+  border-radius: 40px; 
+  padding-bottom: 30px;
+}
+.heading{
+  text-align: center;
+}
+ .cform .form-control{
+  background-color: rgb(170, 235, 240);
+  width:65%;
+  margin-left: 140px;
+  margin-top: -68px;
+}
+.cform{
+  padding-left: 100%;
+}
+
+.dform .form-control{
+  width:20%;
+}
+.box{
+  margin: auto;
+  width: 80%;
+  border: 3px solid rgb(245, 245, 245);
+  box-shadow: 0 10px  15px #47e1ec;
+  border-radius: 40px;
+  padding: 10px;
+}
+.deposit,.withdraw{
+  margin: auto;
+  width: 10cm;
+  height:10cm;
+  border: 3px solid rgb(245, 245, 245);
+  box-shadow: 0 10px  15px #47e1ec;
+  border-radius: 40px;
+  padding: 10px;
+}
+.balance{
+  margin: auto;
+  width: 8cm;
+  height:1.5cm;
+  margin-top: 220px;
+  border: 3px solid rgb(252, 218, 252);
+  box-shadow: 0 10px  15px #e2a6c7;
+  border-radius: 40px;
+  /* padding: 5px; */
+}
+.available{
+  font-style:oblique;
+  text-align: center;
+}
+.lable{
+  border-color: #dfded7;
+  border-radius: 20px;
+  background-color: rgb(252, 246, 246);
+  width:100%;
+  height:1.5cm;
+}
+.btnsubmit{
+  background-color: #007bff;
+  box-shadow: 2px 2px rgb(213, 214, 211);
+  color: #dfded7;
+  border-radius:10px;
+  width: 10%;
+  border-style: none;
+  font-size: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.cancel{
+  background-color: #df2c0c;
+  color: #f7f5f5;
+  box-shadow: 2px 2px rgb(254, 255, 252);
+  border-radius: 10px;
+  width: 10%;
+  border-style: none;
+  font-size: 20px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 290px;
+  position: absolute;
+  top: 60%;
+  left: 28.5%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.col-12{
+  text-align: center;
+
+}
+.col-12 .form-check-input{
+  text-align: center;
+} 
+.banklogo{ 
+  width: 80px;
+  height: 95px;
+}
+/*Deposit and Withdraw  */
+
+#another_btn{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-style: groove;
+  border-radius: 20px;
+  margin:50px auto;
+  font-size:20px;
+  /* width: 30%; */
+  font-style:normal;
+  font-weight: bold;
+  background-image: linear-gradient(45deg, #dfded7, #f6fa15);
+}
+
+.success{
+  font-size: 30px;
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  
+}
+.link{
+  text-align: center;
+  color:#f31010;
+  font-weight:bold ;
+}
+
+/* AllData Css */
+
+#table,th,td{
+  border: 3px solid rgb(179, 196, 25);
+   padding: 12px; 
+  border-collapse: collapse;
+  width: 30px;
+  padding-top: 15px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #063163;
+  color:rgb(225, 228, 20);
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.profile {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 450px;
+  margin-top: -10px;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.logout{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-style: groove;
+  border-radius: 10px;
+  margin:50px auto;
+  font-size:20px;
+  /* width: 30%; */
+  font-style:oblique;
+  font-weight: bold;
+  background-color: #f8f899;
+  background-image: linear-gradient(45deg, #dfded7, #fa7d6c);
+}
+/* .display{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  /* padding-left: 100px; */
+  /* margin-left: 400px;
+} */ 
